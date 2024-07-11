@@ -32,7 +32,7 @@ namespace login_page_farzan
             
 
 
-            string connectionString = "server=127.0.0.1;uid=root;pwd=zaid4265@@;database=employeemanagementsystem";
+            string connectionString = "server=127.0.0.1;uid=root;pwd=PASSWORD;database=employeemanagementsystem";
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 connection.Open();
